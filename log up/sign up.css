@@ -1,0 +1,302 @@
+* {
+	margin: 0;
+	padding: 0;
+  }
+  
+  body {
+	background: rgb(20, 117, 188);
+	background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(./download.jfif);;
+	margin-top: 40px;
+	background-position: center;
+	background-size: cover;
+	font-family: sans-serif;
+  }
+  
+h1 ,h2{
+	color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(29, 255, 4);
+}
+
+  .regform {
+	width: 800px;
+	background-color: rgb(0, 0, 0, 0.6);
+	margin: auto;
+	color: #FFFFFF;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+  }
+  
+  .main {
+	background-color: rgb(0, 0, 0, 0.5);
+	width: 800px;
+	margin: auto;
+  }
+  
+  form {
+	padding: 10px;
+  
+  }
+  
+  #name {
+	width: 100%;
+	height: 100px;
+  
+  }
+  
+  .name {
+	margin-left: 25px;
+	margin-top: 30px;
+	width: 125px;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+  }
+  
+  .firstname {
+
+
+	background: transparent;
+    border-bottom: 1px solid rgb(29, 255, 4);
+    border-top: 1px solid rgb(29, 255, 4);
+    border-right: 1px solid rgb(29, 255, 4);
+    border-left: 1px solid rgb(29, 255, 4);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(29, 255, 4);
+	position: relative;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 20px;
+	width: 200px;
+  
+  }
+  
+  .lastname {
+
+	
+	background: transparent;
+    border-bottom: 1px solid rgb(29, 255, 4);
+    border-top: 1px solid rgb(29, 255, 4);
+    border-right: 1px solid rgb(29, 255, 4);
+    border-left: 1px solid rgb(29, 255, 4);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(29, 255, 4);
+	position: relative;
+	left: 417px;
+	top: -80px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 20px;
+	width: 200px;
+	
+  }
+  
+  .firstlabel {
+	position: relative;
+	color: #E5E5E5;
+	text-transform: capitalize;
+	font-size: 14px;
+	left: 203px;
+	top: -45px;
+  }
+  
+  .lastlabel {
+	position: relative;
+	color: #E5E5E5;
+	text-transform: capitalize;
+	font-size: 14px;
+	left: 492px;
+	top: -76px;
+  }
+  
+  .company {
+
+	background: transparent;
+    border-bottom: 1px solid rgb(29, 255, 4);
+    border-top: 1px solid rgb(29, 255, 4);
+    border-right: 1px solid rgb(29, 255, 4);
+    border-left: 1px solid rgb(29, 255, 4);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(29, 255, 4);
+	position: relative;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	width: 480px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 20px;
+	
+  }
+  
+  .email {
+	background: transparent;
+    border-bottom: 1px solid rgb(29, 255, 4);
+    border-top: 1px solid rgb(29, 255, 4);
+    border-right: 1px solid rgb(29, 255, 4);
+    border-left: 1px solid rgb(29, 255, 4);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(29, 255, 4);
+	position: relative;
+	left: 200px;
+	 top: -105px;
+	line-height: 40px;
+	width: 480px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 20px;
+	
+  }
+  .country {
+
+	background: transparent;
+    border-bottom: 1px solid rgb(29, 255, 4);
+    border-top: 1px solid rgb(29, 255, 4);
+    border-right: 1px solid rgb(29, 255, 4);
+    border-left: 1px solid rgb(29, 255, 4);
+    color: rgb(116, 116, 116);
+    text-shadow: 0 0 5px rgb(29, 255, 4);
+	position: relative;
+	left: 200px;
+	 top: 52px;
+	line-height: 40px;
+	width: 480px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	
+  }
+  
+  .Code {
+	background: transparent;
+    border-bottom: 1px solid rgb(29, 255, 4);
+    border-top: 1px solid rgb(29, 255, 4);
+    border-right: 1px solid rgb(29, 255, 4);
+    border-left: 1px solid rgb(29, 255, 4);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(29, 255, 4);
+	position: relative;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	width: 95px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 22px;
+	
+  }
+  
+  .number {
+
+	background: transparent;
+    border-bottom: 1px solid rgb(29, 255, 4);
+    border-top: 1px solid rgb(29, 255, 4);
+    border-right: 1px solid rgb(29, 255, 4);
+    border-left: 1px solid rgb(29, 255, 4);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(29, 255, 4);
+	position: relative;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	width: 255px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 22px;
+
+  }
+  
+  .area-code {
+	position: relative;
+	color: #E5E5E5;
+	text-transform: capitalize;
+	font-size: 16px;
+	left: 54px;
+	top: -4px;
+  }
+  
+  .phone-number {
+	position: relative;
+	color: #E5E5E5;
+	text-transform: capitalize;
+	font-size: 16px;
+	left: -100px;
+	top: -2px;
+  }
+  
+  .option {
+	position: relative;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	width: 532px;
+	height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+	outline: none;
+	overflow: hidden;
+  }
+  
+  .option option {
+	font-size: 20px;
+  }
+  
+  #coustomer {
+	margin-left: 25px;
+	color: white;
+	font-size: 18px;
+	display: flex;
+  
+  }
+  
+  .radio1 {
+	display: inline-block;
+	padding-right: 70px;
+	font-size: 25px;
+	margin-left: 217px;
+    margin-top: -27px;
+	color: white;
+	display: flex;
+  }
+  .radio2 {
+	display: inline-block;
+	padding-right: 70px;
+	font-size: 25px;
+	margin-left: 545px;
+    margin-top: -27px;
+	color: white;
+	display: flex;
+  }
+  
+  .radio input {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+	outline: none;
+	display: flex;
+  }
+  
+  button {
+	background-color: #000000;
+	display: block;
+	margin: 66px 0px 0px 288px;
+	text-align: center;
+	border-radius: 12px;
+	border: 2px solid rgb(29, 255, 4);
+	padding: 14px 110px;
+	outline: none;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	transition: 0.25px;
+  }
+  
+  button:hover {
+	background-color: #1ccd1c;
+  }
